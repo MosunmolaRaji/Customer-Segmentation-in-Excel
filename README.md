@@ -78,5 +78,5 @@ The cleaned data tables were set for modelling using Power Pivot. Three of the t
 ![image](https://github.com/MosunmolaRaji/Customer-Segmentation-in-Excel/assets/138968251/dca27b6c-1994-4e8e-8b38-ead8c8a52d0d)
 
 # Data Analysis
-
+In addition to the age and profit columns, recency column was also created as the period between the actual transaction and the last transaction in the data set. A pivot table was generated and was used to obtain the frequency and monetary columns. the three columns - recency, frequency and mometary columns were then ranked based on quartiles to obtain the R, F, and M scores. These were then concatenated to obtain the RFM score that was used to rank the customers into platinum, gold, silver and bronze.
 
