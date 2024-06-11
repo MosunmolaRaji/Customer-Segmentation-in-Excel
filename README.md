@@ -1,5 +1,5 @@
 # Customer-Segmentation-in-Excel
-This project uses RFM to segment customers into different categories using excel.
+This project uses RFM to segment customers into different categories using Microsoft Excel.
 
 # Introduction
 
@@ -11,8 +11,8 @@ Every business aims to maximise profit. Profit maximisation is easier when the r
 # Data Source
 The data set used for this project was obtained from the KPMG Data Analytics virtual internship from The Forage website at https://www.theforage.com/. The file is of the format .xlsx containing four tables on different sheets. The data was provided by an Australian hypothetical Bike and Cycling accessories company known as Sprocket Central Pty Ltd.
 
-# Data Storage
-The file was downloaded as .xlsx file and was saved on a local machine.
+# Data Ingestion and Storage
+The file was downloaded as an xlsx file and was stored on a local machine.
 
 # Data Cleaning and Processing
 The downloaded file contained three dimension tables and one fact table as listed below. 
