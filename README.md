@@ -73,8 +73,10 @@ Mitigation: The data types for these columns were changed to appropriate data ty
 
 
 # Data Modelling
-The cleaned data tables were set for modelling using Power Pivot. Three of the tables were used for the modelling. This is shown below
+The cleaned data tables were set for modelling using Power Pivot. Three of the tables were used for the modelling. This is shown below.
+
 ![image](https://github.com/MosunmolaRaji/Customer-Segmentation-in-Excel/assets/138968251/dca27b6c-1994-4e8e-8b38-ead8c8a52d0d)
 
+# Data Analysis
 
 
