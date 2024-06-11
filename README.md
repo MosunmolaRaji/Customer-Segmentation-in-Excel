@@ -6,6 +6,7 @@ This project uses RFM to segment customers into different categories using Micro
 Every business aims to maximise profit. Profit maximisation is easier when the right product is targeted at the right customer. This project aims to categorise customers based on their Recency, Frequency and Monetary (RFM) score. The Recency score is determined by the last transaction of the customer relative to the last transaction date of the data set. The Frequency score is determined by the number of transactions done by the customer and the Monetary score is determined by the total amount the customer has spent and by inference the profit made based on the customer's transactions. Categorising the customers will then inform the product marketing that would be targeted at the customers. 
 
 # Workflow Diagram
+
 ![Workflow Diagram](https://github.com/MosunmolaRaji/Customer-Segmentation-in-Excel/assets/138968251/70f0e220-b2bc-47cb-8c65-92259fe5f324)
 
 
@@ -72,7 +73,8 @@ Mitigation: The data types for these columns were changed to appropriate data ty
 
 
 # Data Modelling
-The cleaned data tables were set for modelling using Power Pivot. Three of the tables were used for the modelling. This is shown elow
+The cleaned data tables were set for modelling using Power Pivot. Three of the tables were used for the modelling. This is shown below
+![image](https://github.com/MosunmolaRaji/Customer-Segmentation-in-Excel/assets/138968251/dca27b6c-1994-4e8e-8b38-ead8c8a52d0d)
 
 
 
