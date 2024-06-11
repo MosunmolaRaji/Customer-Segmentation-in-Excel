@@ -12,21 +12,21 @@ Every business aims to maximise profit. Profit maximisation is easier when the r
 The data set used for this project was obtained from the KPMG Data Analytics virtual internship from The Forage website at https://www.theforage.com/. The file is of the format .xlsx containing four tables on different sheets. The data was provided by an Australian hypothetical Bike and Cycling accessories company known as Sprocket Central Pty Ltd.
 
 # Data Storage
-The file was downoaded as .xlsx file and was saved on a local machine.
+The file was downloaded as .xlsx file and was saved on a local machine.
 
 # Data Cleaning and Processing
-The donwloaded file contained three dimension table and one fact table as listed below. 
+The downloaded file contained three dimension tables and one fact table as listed below. 
 
 ## Transaction Table
-This table consists 20000 rows of information on transaction of Sprocket Central Pty Ltd.
+This table consists of 20000 rows of information on transaction of Sprocket Central Pty Ltd.
 
 ## New Customers Table
-This table consists the details of 100o new customers of Sprocket Central Pty Ltd.
+This table consists of the details of 100o new customers of Sprocket Central Pty Ltd.
 
 ## Customer Demographic Table
-This table consists the information of 4000 old customers of Sprocket Central Pty Ltd.
+This table consists of the information of 4000 old customers of Sprocket Central Pty Ltd.
 
 ## Customers' Address
-This table  consits the information on the address of 3999 of the customers of Sprocket Central Pty Ltd.
+This table consits of information on the addresses of 3999 of the customers of Sprocket Central Pty Ltd.
 
 
