@@ -29,4 +29,8 @@ This table consists of the information of 4000 old customers of Sprocket Central
 ## Customers' Address
 This table consits of information on the addresses of 3999 of the customers of Sprocket Central Pty Ltd.
 
+## Data cleaning
+### Data quality
+The data sets were checked for the dimensions of quality data. This check include Accuracy, Completeness, Consistency, Currency, Relevance, Validity, adn Uniqueness.
+
 
