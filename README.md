@@ -9,4 +9,17 @@ Every business aims to maximise profit. Profit maximisation is easier when the r
 ![WorkFlow Diagram](https://github.com/MosunmolaRaji/Customer-Segmentation-in-Excel/assets/138968251/971626c1-5b15-45c6-914d-e0c8aa58cd89)
 
 # Data Source
-The 
+The data set used for this project was obtained from the KPMG Data Analytics virtual internship from The Forage website at https://www.theforage.com/. The file is of the format .xlsx containing four files on different sheets. The data was provided by an Australian hypothetical Bike and Cycling accessories company known as Sprocket Central Pty Ltd.
+
+# Data Storage
+The file was downoaded as .xlsx file and was saved on a local machine.
+
+# Data Cleaning and Processing
+The donwloaded file contained three dimension table and one fact table as listed below. 
+
+## Transaction Table
+This file consist 20000 rows of information on transaction of Sprocket Central Pty Ltd.
+
+## 
+
+
