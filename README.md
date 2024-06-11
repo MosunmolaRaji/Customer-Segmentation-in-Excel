@@ -45,20 +45,17 @@ Mitigation: The columns with blanks were filtered out.
 Data labels such as those of gender from the customerDemographic table and states from the customerAddress tables were inconsistent.  
 Mitigation: The gender column was made consistent by replacing all the data points representing male and female with ‘Male’ and ‘Female’ respectively. In the same vein, NSW, VIC and QLD were used for the states in the customerAddress table.
 
-*	Currency
+### Currency
 The deceased information column on the customerDemographic table was not needed.
 Mitigation: The row with deceased client was filtered out.
-Recommendation: Deceased client should not be included in tables needed for data analysis as this is not needed for analysis for business purposes.
 
-*	Relevance
+### Relevance
 The default column in the customerDemographic table holds no valuable information and thus is irrelevant for analysis. Also, cancelled orders was not required for analysis.
 Mitigation: The default column was removed, and the cancelled orders were filtered out.
-Recommendation: The cancelled orders should be stored in a separate data base and not the ones needed for future analysis, so it doesn’t accidentally influence the outcome of analysis used to take future business decisions.
 
-*	Validity
+### Validity
 The data types of some columns such as list_price and standard_cost in the Transactions table and DOB in the customerDemographic table are not appropriate.
 Mitigation: The data types for these columns were changed to appropriate data types.
-Recommendation: Data can be stored using the right data types for analysis purposes.
 
 
 
