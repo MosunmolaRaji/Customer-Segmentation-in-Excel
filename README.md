@@ -57,5 +57,8 @@ Mitigation: The default column was removed, and the cancelled orders were filter
 The data types of some columns such as list_price and standard_cost in the Transactions table and DOB in the customerDemographic table are not appropriate.
 Mitigation: The data types for these columns were changed to appropriate data types.
 
+# Data Modelling
+
+
 
 
