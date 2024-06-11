@@ -7,3 +7,6 @@ Every business aims to maximise profit. Profit maximisation is easier when the r
 
 # Workflow Diagram
 ![WorkFlow Diagram](https://github.com/MosunmolaRaji/Customer-Segmentation-in-Excel/assets/138968251/971626c1-5b15-45c6-914d-e0c8aa58cd89)
+
+# Data Source
+The 
