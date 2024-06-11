@@ -19,56 +19,55 @@ The file was downloaded as an xlsx file and was stored on a local machine.
 The downloaded file contained three dimension tables and one fact table as listed below. 
 
 ## Transaction Table
-This table consists of 20000 rows of information on transaction of Sprocket Central Pty Ltd.
+This table is a fact table. It consists of 20000 rows of information on transaction of Sprocket Central Pty Ltd.
 
 ## New Customers Table
-This table consists of the details of 100o new customers of Sprocket Central Pty Ltd.
+This table is a dimension table. It consists of the details of 100o new customers of Sprocket Central Pty Ltd.
 
 ## Customer Demographic Table
-This table consists of the information of 4000 old customers of Sprocket Central Pty Ltd.
+This table is a dimensio table. It consists of the information of 4000 old customers of Sprocket Central Pty Ltd.
 
 ## Customers' Address
-This table consits of information on the addresses of 3999 of the customers of Sprocket Central Pty Ltd.
+This table is a dimension table. It consits of information on the addresses of 3999 of the customers of Sprocket Central Pty Ltd.
 
 # Data cleaning
-## Data quality
-The data sets were checked for the dimensions of quality data. This check include Accuracy, Completeness, Consistency, Currency, Relevance, Validity, adn Uniqueness. These are explained further below.
+The data sets were checked for the dimensions of quality data. This check include Accuracy, Completeness, Consistency, Currency, Relevance, Validity, adn Uniqueness. These are explained further below. Data cleaning is an important aspect of data anaysis and analytics as it determines the quality of outcome of analsysis. A clean data yields better outcomes. Decisions taken on these outcomes enhance productivity and profit.
 
-### Accuracy
-The profit column has not been included in the transaction table. This would have been better completed with an extra column indicating the profit. Also, the CustomerDemographic table had no age column, and a particular customer had an inaccurate DOB.
+## Accuracy
+The profit column was not included in the transaction table. This would have been better completed with an extra column indicating the profit. Also, the CustomerDemographic table had no age column, and a particular customer had an inaccurate DOB.
 Mitigation: The inaccurate DOB that was filtered out, extra columns were created for profit and age.
 ![image](https://github.com/MosunmolaRaji/Customer-Segmentation-in-Excel/assets/138968251/97513a73-cb9e-4fc6-bb58-1b14afe23ff9)
 
 
-### Completeness
+## Completeness
 Missing records were identified in some columns of the transaction table, NewCustomerList and the CustomerDemographic table.
 Mitigation: The columns with blanks were filtered out.
+![image](https://github.com/MosunmolaRaji/Customer-Segmentation-in-Excel/assets/138968251/10093625-9c75-4adb-a752-967d015ffcb9)
 
-### Consistency
+## Consistency
 Data labels such as those of gender from the customerDemographic table and states from the customerAddress tables were inconsistent.  
 Mitigation: The gender column was made consistent by replacing all the data points representing male and female with ‘Male’ and ‘Female’ respectively. In the same vein, NSW, VIC and QLD were used for the states in the customerAddress table.
 ![image](https://github.com/MosunmolaRaji/Customer-Segmentation-in-Excel/assets/138968251/12dbdb70-9205-4535-ab5c-91ed07b1f229)
 
 
-### Currency
+## Currency
 The deceased information column on the customerDemographic table was not needed.
 Mitigation: The row with deceased client was filtered out.
 ![image](https://github.com/MosunmolaRaji/Customer-Segmentation-in-Excel/assets/138968251/c282f3a8-23f1-4a26-baed-038c3ecd0dae)
 
-
-
-### Relevance
+## Relevance
 The default column in the customerDemographic table holds no valuable information and thus is irrelevant for analysis. Also, cancelled orders was not required for analysis.
 Mitigation: The default column was removed, and the cancelled orders were filtered out.
 ![image](https://github.com/MosunmolaRaji/Customer-Segmentation-in-Excel/assets/138968251/2fd187f3-218d-46ce-8d80-f74daf83986d)
 
 
-### Validity
+## Validity
 The data types of some columns such as list_price and standard_cost in the Transactions table and DOB in the customerDemographic table are not appropriate.
 Mitigation: The data types for these columns were changed to appropriate data types.
 
-# Data Modelling
 
+# Data Modelling
+The cleaned data tables were set for modelling using Power Pivot. Three of the tables were used for the modelling. This is shown elow
 
 
 
