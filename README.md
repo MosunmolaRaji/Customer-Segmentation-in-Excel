@@ -36,28 +36,33 @@ The data sets were checked for the dimensions of quality data. This check includ
 ## Accuracy
 The profit column was not included in the transaction table. This would have been better completed with an extra column indicating the profit. Also, the CustomerDemographic table had no age column, and a particular customer had an inaccurate DOB.
 Mitigation: The inaccurate DOB that was filtered out, extra columns were created for profit and age.
+
 ![image](https://github.com/MosunmolaRaji/Customer-Segmentation-in-Excel/assets/138968251/97513a73-cb9e-4fc6-bb58-1b14afe23ff9)
 
 
 ## Completeness
 Missing records were identified in some columns of the transaction table, NewCustomerList and the CustomerDemographic table.
 Mitigation: The columns with blanks were filtered out.
+
 ![image](https://github.com/MosunmolaRaji/Customer-Segmentation-in-Excel/assets/138968251/10093625-9c75-4adb-a752-967d015ffcb9)
 
 ## Consistency
 Data labels such as those of gender from the customerDemographic table and states from the customerAddress tables were inconsistent.  
 Mitigation: The gender column was made consistent by replacing all the data points representing male and female with ‘Male’ and ‘Female’ respectively. In the same vein, NSW, VIC and QLD were used for the states in the customerAddress table.
+
 ![image](https://github.com/MosunmolaRaji/Customer-Segmentation-in-Excel/assets/138968251/12dbdb70-9205-4535-ab5c-91ed07b1f229)
 
 
 ## Currency
 The deceased information column on the customerDemographic table was not needed.
 Mitigation: The row with deceased client was filtered out.
+
 ![image](https://github.com/MosunmolaRaji/Customer-Segmentation-in-Excel/assets/138968251/c282f3a8-23f1-4a26-baed-038c3ecd0dae)
 
 ## Relevance
 The default column in the customerDemographic table holds no valuable information and thus is irrelevant for analysis. Also, cancelled orders was not required for analysis.
 Mitigation: The default column was removed, and the cancelled orders were filtered out.
+
 ![image](https://github.com/MosunmolaRaji/Customer-Segmentation-in-Excel/assets/138968251/2fd187f3-218d-46ce-8d80-f74daf83986d)
 
 
